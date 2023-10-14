@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15afc19ef40b7e74d97decfed2b3b6e0, type: 3}
+  m_Name: Buildings
+  m_EditorClassIdentifier: 
+  _obstacles:
+  - {fileID: 6400009276888288500, guid: f31ebce320a84814e9c96de35ca6ad5c, type: 3}
+  - {fileID: 8110509722853004331, guid: db86f62a04ca7cf42ad4a057a3cc176b, type: 3}
+  - {fileID: 5264577623241906776, guid: 7e4c6b20f37a802408a40a0e5b84579f, type: 3}
+  - {fileID: 1690856704428084543, guid: 2a0aa4940c5d0bc4d9291221540315cc, type: 3}
+  - {fileID: 48355364536380056, guid: 366ddf297a49fac4c97d89f61f11da44, type: 3}
+  - {fileID: 6138043748653133887, guid: 4d53e636a00ec6b43b7bc972318f1d0f, type: 3}
+  - {fileID: 6754147958317751360, guid: 4600769852718ce4691040433f264698, type: 3}

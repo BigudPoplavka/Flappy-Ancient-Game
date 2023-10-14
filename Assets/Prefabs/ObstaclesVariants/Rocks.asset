@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15afc19ef40b7e74d97decfed2b3b6e0, type: 3}
+  m_Name: Rocks
+  m_EditorClassIdentifier: 
+  _obstacles:
+  - {fileID: 4208862878227239009, guid: 8f76b36f419346b41b131c6aad889e90, type: 3}
+  - {fileID: 8371080046805171702, guid: 651722dd236da744d9cffd2b63df48c7, type: 3}
+  - {fileID: 7416153506142151508, guid: 8ade98ee956bf914d82c52b92b944119, type: 3}
+  - {fileID: 3484676383981709186, guid: e3de38d87485a264297c81a014b582be, type: 3}
+  - {fileID: 3484676383981709186, guid: e3de38d87485a264297c81a014b582be, type: 3}
