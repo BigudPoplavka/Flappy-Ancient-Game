@@ -17,11 +17,6 @@ public class ObstacleSegment : MonoBehaviour
         }
     }
 
-    //private void FixedUpdate()
-    //{
-    //    transform.Translate(Vector3.left * _movingSpeed * Time.fixedDeltaTime);
-    //}
-
     private void Update()
     {
         transform.Translate(Vector3.left * _movingSpeed * Time.deltaTime);

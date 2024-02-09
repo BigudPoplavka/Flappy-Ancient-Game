@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStatsRenderer: MonoBehaviour  
 {
@@ -12,6 +13,8 @@ public class PlayerStatsRenderer: MonoBehaviour
 
     [SerializeField] private Animator _scoreChangingAnimator;
 
+    [SerializeField] private Slider _progressBar;
+
 
     public void UpdateCollectedStarsCount(int count)
     {
@@ -21,6 +24,8 @@ public class PlayerStatsRenderer: MonoBehaviour
     public void UpdatePassedObstaclesCount(int count)
     {
         _passedObstaclesCountText.text = count.ToString();
+        _progressBar.value = (count * 1.0f) / 100;
+
         _scoreChangingAnimator.SetTrigger("Score Changed");
     }
 

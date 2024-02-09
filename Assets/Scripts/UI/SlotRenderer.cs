@@ -77,11 +77,11 @@ public class SlotRenderer : MonoBehaviour
 
             _usageEffectHolder.gameObject.SetActive(false);
         }
-
     }
 
     public void ResetSlotRenderer()
     {
         _cooldown = 0;
+        _usageEffectHolder.sprite = null;
     }
 }

@@ -103,6 +103,7 @@ MonoBehaviour:
   _cooldown: 1
   _particleSystem: {fileID: 4466703843327146414}
   _icon: {fileID: -1983652196504064915, guid: b486d5a9f1860174496f2d5221ae4378, type: 3}
+  _edgeCollider: {fileID: 0}
 --- !u!68 &4825155681175357927
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -140,7 +141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a6ca26c085cbc7409ee46cd31069485, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bombTemplate: {fileID: 0}
+  _frontObstacles: []
+  _minDistancePointPosition: {x: 0, y: 0, z: 0}
+  _offset: 2
 --- !u!1 &6622170060425086103
 GameObject:
   m_ObjectHideFlags: 0
